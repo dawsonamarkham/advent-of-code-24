@@ -11,7 +11,6 @@ while line:
 grid.append('_'*len(grid[0]))
 fd.close()
 
-
 # Initialize values
 ret = 0
 wrd = 'XMAS'
