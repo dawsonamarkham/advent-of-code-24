@@ -1,6 +1,5 @@
 from os import path
 
-
 def getFnIn(args):
     """Check if input filepath in args, if it exists and return filepath."""
     if len(args) != 1:
