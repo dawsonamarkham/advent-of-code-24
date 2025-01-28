@@ -4,7 +4,7 @@ from util import getFnIn
 # Define state machine functions
 # Sequence 'mul(AAA, BBB)' multiplies AAA*BBB and adds to sum
 # Sequence 'do()' enables future 'mul(AAA, BBB)'
-# Sequence 'don't()' enables future 'mul(AAA, BBB)'
+# Sequence 'don't()' disables future 'mul(AAA, BBB)'
 def startFunc(character, state):
     if character == 'm' and state[1]:
         state[0] = 1
